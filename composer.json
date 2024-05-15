@@ -1,5 +1,5 @@
 {
-    "name" : "https://github.com/butterfly-team/ignition",
+    "name" : "butterfly-team/ignition",
     "description" : "A beautiful error page for PHP applications. (forked from spatie/ignition)",
     "keywords" : [
         "error",
