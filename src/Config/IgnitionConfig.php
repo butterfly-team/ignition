@@ -146,7 +146,7 @@ class IgnitionConfig implements Arrayable
     protected function getDefaultOptions(): array
     {
         return [
-            'share_endpoint' => 'https://flareapp.io/api/public-reports',
+            'share_endpoint' => 'https://butterflydxp.com',
             'theme' => 'light',
             'editor' => 'vscode',
             'editor_options' => [

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Button, FlareIcon } from '@flareapp/ignition-ui';
+import { Button } from '@flareapp/ignition-ui';
 import Checkbox from 'components/ui/Checkbox';
 import { IgniteDataContext } from '../contexts/IgniteDataContext';
 import CopyableUrl from './ui/CopyableUrl';
@@ -72,18 +72,6 @@ export default function ShareDropdown({ isOpen }: Props) {
                 <div className="w-0 h-0 border-[10px] border-t-0 border-transparent ~border-b-dropdown" />
             </div>
             <div className="flex flex-col gap-6 ~bg-dropdown px-10 py-8 shadow-2xl">
-                <div className="flex items-center justify-between gap-6">
-                    <h4 className="whitespace-nowrap font-semibold">Share with Flare</h4>
-                    <a
-                        className="text-xs ~text-gray-500 hover:text-violet-500 flex items-center underline transition-colors"
-                        href="https://flareapp.io/docs/ignition/introducing-ignition/sharing-errors?utm_campaign=ignition&utm_source=ignition"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Docs
-                        <FlareIcon />
-                    </a>
-                </div>
                 {!publicUrl && (
                     <>
                         <ul className="grid justify-start gap-3">

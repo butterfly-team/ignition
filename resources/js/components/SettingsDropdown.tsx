@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Button, IgnitionConfigContext, IgnitionIcon, InlineCodeSnippet } from '@flareapp/ignition-ui';
+import { Button, IgnitionConfigContext, InlineCodeSnippet } from '@flareapp/ignition-ui';
 import { IgniteDataContext } from 'contexts/IgniteDataContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faAdjust, faAngleDown } from '@fortawesome/free-solid-svg-icons';
@@ -105,16 +105,7 @@ export default function SettingsDropdown({ isOpen }: Props) {
             </div>
             <div className="flex flex-col gap-6 ~bg-dropdown px-10 py-8 shadow-2xl">
                 <div className="flex items-center justify-between gap-6">
-                    <h4 className="whitespace-nowrap font-semibold">Ignition Settings</h4>
-                    <a
-                        className="text-xs ~text-gray-500 hover:text-red-500 flex items-center underline transition-colors"
-                        href="https://flareapp.io/ignition?utm_campaign=ignition&utm_source=ignition"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Docs
-                        <IgnitionIcon />
-                    </a>
+                    <h4 className="whitespace-nowrap font-semibold">Settings</h4>
                 </div>
 
                 <label htmlFor="editor-select">
