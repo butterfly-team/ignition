@@ -1,11 +1,10 @@
 {
-    "name" : "spatie/ignition",
-    "description" : "A beautiful error page for PHP applications.",
+    "name" : "https://github.com/butterfly-team/ignition",
+    "description" : "A beautiful error page for PHP applications. (forked from spatie/ignition)",
     "keywords" : [
         "error",
         "page",
-        "laravel",
-        "flare"
+        "butterfly"
     ],
     "authors" : [
         {
@@ -14,7 +13,7 @@
             "role" : "Developer"
         }
     ],
-    "homepage": "https://flareapp.io/ignition",
+    "homepage": "https://butterflydxp.com",
     "license": "MIT",
     "require": {
         "php": "^8.0",
